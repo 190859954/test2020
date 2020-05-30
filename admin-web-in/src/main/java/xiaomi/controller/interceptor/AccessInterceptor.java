@@ -27,7 +27,7 @@ public class AccessInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
-        System.out.println("我是前置拦截器object是" + o + "，方法是:" + httpServletRequest.getMethod());
+        System.out.println("我是前置拦截器object是111" + o + "，方法是:" + httpServletRequest.getMethod());
         return true;
     }
 
