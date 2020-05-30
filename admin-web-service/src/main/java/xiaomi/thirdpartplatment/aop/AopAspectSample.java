@@ -21,7 +21,7 @@ public class AopAspectSample {
 
     public void before() {
 
-        System.out.print("我是aop的before前置通知啊啊啊啊");
+        System.out.print("我是111aop的before前置通知啊啊啊啊");
 
 
     }
