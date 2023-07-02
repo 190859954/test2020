@@ -18,6 +18,8 @@ package xiaomi.thirdpartplatment.aop;
 //@Component
 public class AopAspectSample {
 
+    private static final String number="1";
+
 
     public void before() {
 
